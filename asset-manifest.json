@@ -1,24 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.0b6654c7.css",
-    "main.js": "/static/js/main.21820989.js",
-    "static/media/background.png": "/static/media/background.daecf3cbf285143e6213.png",
-    "static/media/logo_web.png": "/static/media/logo_web.da946a85085e5e6862cd.png",
-    "static/media/icon_web.png": "/static/media/icon_web.289b45ad2f0fc8adc6ed.png",
-    "static/media/iphone_main.png": "/static/media/iphone_main.fbab817ee2a2ce3bf645.png",
-    "static/media/feature_2.png": "/static/media/feature_2.2b466162eafef9cf2b5f.png",
-    "static/media/feature_1.png": "/static/media/feature_1.801589a0dc8faa4fad28.png",
-    "static/media/feature_3.png": "/static/media/feature_3.0fadb17c93d531691fd5.png",
-    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "main.css": "/static/css/main.073c9b0a.css",
+    "main.js": "/static/js/main.2e96e605.js",
+    "static/js/787.fdc7d7d2.chunk.js": "/static/js/787.fdc7d7d2.chunk.js",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.0b6654c7.css.map": "/static/css/main.0b6654c7.css.map",
-    "main.21820989.js.map": "/static/js/main.21820989.js.map"
+    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
+    "main.2e96e605.js.map": "/static/js/main.2e96e605.js.map",
+    "787.fdc7d7d2.chunk.js.map": "/static/js/787.fdc7d7d2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b6654c7.css",
-    "static/js/main.21820989.js"
+    "static/css/main.073c9b0a.css",
+    "static/js/main.2e96e605.js"
   ]
 }
