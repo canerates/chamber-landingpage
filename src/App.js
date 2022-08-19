@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react';
+import Loader from './components/Loader';
+import Main from './components/Main';
+import Navbar from './components/Navbar';
+import Features from './components/Features';
+import Screens from './components/Screens';
+import Home from './components/Home';
+import HomeTest from './components/HomeTest';
+import NavigationBar from './components/NavigationBar';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Test
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setLoading(false)
+    }, 2000);
+  
+    return () => clearInterval(interval);
+
+  },[]);
+
+  return(
+    <div className='App'>
+      <Loader isLoading={loading} />
+      
+      
+      <Main isLoading={loading}>
+        <NavigationBar />
+        <Home />
+        <Features/>
+        <Screens />
+      </Main>
+      
     </div>
-  );
+  )
 }
 
 export default App;
