@@ -7,7 +7,12 @@ import {
     NavbarToggler,
     NavbarBrand,
     Nav,
+<<<<<<< HEAD
+    NavItem,
+    NavLink,
+=======
     NavItem
+>>>>>>> 07e9bf252847a0b85a68ce570bebe31fb80b01c6
   } from 'reactstrap';
 import { Link } from 'react-scroll';
 
@@ -44,7 +49,11 @@ const NavigationBar = () => {
 
     return(
         <div>
+<<<<<<< HEAD
+            <Navbar expand='sm' fixed='top' container='sm' className={navStatus ? 'navbar-active' : ''}>
+=======
             <Navbar expand='md' fixed='top' container='md' className={navStatus || isOpen ? 'navbar-active' : ''}>
+>>>>>>> 07e9bf252847a0b85a68ce570bebe31fb80b01c6
                 <NavbarBrand href="#home">
                     <div className='logo'>
                         <img src={logo} alt=''/>
@@ -52,7 +61,11 @@ const NavigationBar = () => {
                 </NavbarBrand>
                 <NavbarToggler onClick={toggle} className={isOpen ? 'navbar-toggler-checked' : ''} />
                 <Collapse isOpen={isOpen} navbar>
+<<<<<<< HEAD
+                <Nav className='ms-auto' navbar>
+=======
                 <Nav className={isOpen ? 'nav-opened ms-auto' : 'ms-auto'} navbar>
+>>>>>>> 07e9bf252847a0b85a68ce570bebe31fb80b01c6
                     {links.map(createNavItem)}
                 </Nav>
                 </Collapse>
