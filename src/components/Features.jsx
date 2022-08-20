@@ -1,21 +1,23 @@
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Row } from 'reactstrap';
+import SectionTitle from './SectionTitle';
 import FeatureBox from "./FeatureBox";
-import featureimage from '../images/feature_1.png';
 
 const Features = () => {
+    const title = 'Features';
+    const text = 'Measure. Scan. Design.';
+    const boxTitle = 'Feature 1';
+    const boxDetails = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam';
     return(
         <section id='features'>
             <Container>
                 <Row className='row-center'>
-                    <Col sm='12' md='12' lg='4'>
-                        <FeatureBox image={featureimage} title='Development Course' />
-                    </Col>
-                    <Col sm='12' md='12' lg='4'>
-                        <FeatureBox image={featureimage} title='Development Course' />
-                    </Col>
-                    <Col sm='12' md='12' lg='4'>
-                        <FeatureBox image={featureimage} title='Development Course' />
-                    </Col>
+                    <SectionTitle title={title} text={text} />
+                    <FeatureBox title={boxTitle} details={boxDetails}/>
+                    <FeatureBox title={boxTitle} details={boxDetails}/>
+                    <FeatureBox title={boxTitle} details={boxDetails}/>
+                    <FeatureBox title={boxTitle} details={boxDetails}/>
+                    <FeatureBox title={boxTitle} details={boxDetails}/>
+                    <FeatureBox title={boxTitle} details={boxDetails}/>
                 </Row>
             </Container>
         </section>

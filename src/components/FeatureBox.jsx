@@ -1,15 +1,18 @@
+import { Col } from 'reactstrap';
 
 const FeatureBox = (props) => {
     return(
-        <div className='feature-box'>
-            <div className='feature-box-img'>
-                <img src={props.image} alt="" />
+        <Col lg='4' md='6' className='feature-box-container' key={`features-${props.index}`}>
+            <div className='feature-box'>
+                <div className='feature-box-img-block'>
+                    <img alt='' className='feature-box-img' src={props.icon} />
+                </div>
+                <div className='feature-box-description'>
+                    <h4 className='feature-box-text'>{props.title}</h4>
+                        <p>{props.details}</p>
+                </div>
             </div>
-            <div className='feature-box-text'>
-                <h2> {props.title} </h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
-            </div>
-        </div>
+        </Col>
     );
 };
 

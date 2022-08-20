@@ -1,5 +1,6 @@
 import { Container, Row, Col } from 'reactstrap'
-import Slider from "react-slick";
+import Slider from 'react-slick';
+import SectionTitle from './SectionTitle';
 import iphoneHomeTab from '../images/screens/iphone_hometab.png';
 import iphoneTextureTab from '../images/screens/iphone_texturetab.png';
 import iphoneFurnitureTab from '../images/screens/iphone_furnituretab.png';
@@ -8,6 +9,7 @@ import iphoneDesignFurniture from '../images/screens/iphone_design_furniture.png
 import iphoneDesignSettings from '../images/screens/iphone_design_settings.png';
 import iphoneDesignARQuicklook1 from '../images/screens/iphone_arquicklook1.png';
 import iphoneDesignARQuicklook2 from '../images/screens/iphone_arquicklook2.png';
+
 
 var settings = {
     centerMode: true,
@@ -25,8 +27,8 @@ var settings = {
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                centerPadding: "0",
-                padding: "0"
+                centerPadding: '0',
+                padding: '0'
                 
             }
         },
@@ -35,7 +37,7 @@ var settings = {
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                centerPadding: "120px"
+                centerPadding: '120px'
             }
         },
         {
@@ -43,7 +45,7 @@ var settings = {
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                centerPadding: "200px"
+                centerPadding: '200px'
             }
         },
         {
@@ -51,7 +53,7 @@ var settings = {
             settings: {
                 slidesToShow: 3,
                 slidesToScroll: 1,
-                centerPadding: "40px"
+                centerPadding: '40px'
             }
         }
 
@@ -59,20 +61,13 @@ var settings = {
 };
 
 const Screens = () => {
+    const title = 'Screens';
+    const text = 'Chamber AR has three main sections. Home, Design AR, Scan Texture. Home section consists of three main tabs: Home Tab, Furniture Tab, Texture Tab. Design AR section provides AR View. Scan Texture section let users scan real-world texture to apply it on AR design.';
     return(
         <section id='screens'>
             <Container>
                 <Row>
-                    <Col lg='8' md='10' sm='10' className="offset-lg-2 offset-md-1 offset-sm-1">
-                        <div className="screens-title">
-                            <div className="main-title">
-                                <h1>Screens</h1>
-                            </div>
-                            <div className="sub-title">
-                                <p>Chamber AR has three main sections. Home, Design AR, Scan Texture. Home section consists of three main tabs: Home Tab, Furniture Tab, Texture Tab. Design AR section provides AR View. Scan Texture section let users scan real-world texture to apply it on AR design.</p>
-                            </div>
-                        </div>
-                    </Col>
+                    <SectionTitle title={title} text={text} />
                 </Row>
                 <Row>
                     <Col xs='12'>
@@ -80,28 +75,28 @@ const Screens = () => {
                             <div className='swiper-wrapper'>
                                 <Slider className='screens-slider' {...settings}>
                                     <div className='screens-item'>
-                                        <img alt="" className="screens-img" src={iphoneHomeTab} />
+                                        <img alt='' className='screens-img' src={iphoneHomeTab} />
                                     </div>
                                     <div className='screens-item'>
-                                        <img alt="" className="screens-img" src={iphoneFurnitureTab} />
+                                        <img alt='' className='screens-img' src={iphoneFurnitureTab} />
                                     </div>
                                     <div className='screens-item'>
-                                        <img alt="" className="screens-img" src={iphoneTextureTab} />
+                                        <img alt='' className='screens-img' src={iphoneTextureTab} />
                                     </div>
                                     <div className='screens-item'>
-                                        <img alt="" className="screens-img" src={iphoneDesignMeasure} />
+                                        <img alt='' className='screens-img' src={iphoneDesignMeasure} />
                                     </div>
                                     <div className='screens-item'>
-                                        <img alt="" className="screens-img" src={iphoneDesignSettings} />
+                                        <img alt='' className='screens-img' src={iphoneDesignSettings} />
                                     </div>
                                     <div className='screens-item'>
-                                        <img alt="" className="screens-img" src={iphoneDesignFurniture} />
+                                        <img alt='' className='screens-img' src={iphoneDesignFurniture} />
                                     </div>
                                     <div className='screens-item'>
-                                        <img alt="" className="screens-img" src={iphoneDesignARQuicklook1} />
+                                        <img alt='' className='screens-img' src={iphoneDesignARQuicklook1} />
                                     </div>
                                     <div className='screens-item'>
-                                        <img alt="" className="screens-img" src={iphoneDesignARQuicklook2} />
+                                        <img alt='' className='screens-img' src={iphoneDesignARQuicklook2} />
                                     </div>
 
                                 </Slider>

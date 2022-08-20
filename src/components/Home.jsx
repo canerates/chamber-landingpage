@@ -20,7 +20,7 @@ const Home = () => {
                             <p className='details'>Create your 3D room layout with textured floor and walls in real-time. Place your 3D furniture models and design your room. Give realistic looking with user-defined lighting options.  </p>
                         </Row>
                         <div>
-                            <Button className='cv-btn'>See more</Button>
+                            <Button href='#screens' className='cv-btn'>See more</Button>
                         </div>
                     </Col>
                 </Row>
