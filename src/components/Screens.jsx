@@ -6,7 +6,7 @@ var settings = {
     centerMode: true,
     centerPadding: '140px',
     infinite: true,
-    autoplay: false,
+    autoplay: true,
     arrows: false,
     swipeToSlide: true,
     dots: true,
@@ -17,9 +17,10 @@ var settings = {
             breakpoint: 575,
             settings: {
                 slidesToShow: 1,
-                centerPadding: "0",
-                padding: "0",
                 slidesToScroll: 1,
+                centerPadding: "0",
+                padding: "0"
+                
             }
         },
         {
@@ -27,8 +28,7 @@ var settings = {
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                centerPadding: "120px",
-                dots: true
+                centerPadding: "120px"
             }
         },
         {
@@ -36,19 +36,15 @@ var settings = {
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                centerPadding: "200px",
-                autoplay: false,
-                dots: true
+                centerPadding: "200px"
             }
         },
         {
             breakpoint: 1200,
             settings: {
                 slidesToShow: 3,
-                centerPadding: "40px",
                 slidesToScroll: 1,
-                autoplay: false,
-                dots: true
+                centerPadding: "40px"
             }
         }
 
