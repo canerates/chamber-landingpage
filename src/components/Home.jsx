@@ -1,5 +1,5 @@
 import { Container, Row, Col, Button } from 'reactstrap';
-import iphoneMain from '../images/iphone_main.png';
+import iphoneHome from '../images/screens/iphone_hometab.png';
 
 const Home = () => {
     return(
@@ -7,7 +7,7 @@ const Home = () => {
             <Container>
                 <Row className='row-center'>
                     <Col lg='5' md='12' sm='12' className='col-pb-30'>
-                        <img src={iphoneMain} alt="" />
+                        <img src={iphoneHome} alt="" />
                     </Col>
                     <Col lg='7' md='12' sm='12' className='home-description col-pb-30'>
                         <Row>

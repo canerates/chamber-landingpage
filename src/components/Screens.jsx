@@ -1,6 +1,13 @@
 import { Container, Row, Col } from 'reactstrap'
 import Slider from "react-slick";
-import iphoneMain from '../images/iphone_main.png';
+import iphoneHomeTab from '../images/screens/iphone_hometab.png';
+import iphoneTextureTab from '../images/screens/iphone_texturetab.png';
+import iphoneFurnitureTab from '../images/screens/iphone_furnituretab.png';
+import iphoneDesignMeasure from '../images/screens/iphone_design_measure.png';
+import iphoneDesignFurniture from '../images/screens/iphone_design_furniture.png';
+import iphoneDesignSettings from '../images/screens/iphone_design_settings.png';
+import iphoneDesignARQuicklook1 from '../images/screens/iphone_arquicklook1.png';
+import iphoneDesignARQuicklook2 from '../images/screens/iphone_arquicklook2.png';
 
 var settings = {
     centerMode: true,
@@ -73,28 +80,28 @@ const Screens = () => {
                             <div className='swiper-wrapper'>
                                 <Slider className='screens-slider' {...settings}>
                                     <div className='screens-item'>
-                                        <img alt="" className="screens-img" src={iphoneMain} />
+                                        <img alt="" className="screens-img" src={iphoneHomeTab} />
                                     </div>
                                     <div className='screens-item'>
-                                        <img alt="" className="screens-img" src={iphoneMain} />
+                                        <img alt="" className="screens-img" src={iphoneFurnitureTab} />
                                     </div>
                                     <div className='screens-item'>
-                                        <img alt="" className="screens-img" src={iphoneMain} />
+                                        <img alt="" className="screens-img" src={iphoneTextureTab} />
                                     </div>
                                     <div className='screens-item'>
-                                        <img alt="" className="screens-img" src={iphoneMain} />
+                                        <img alt="" className="screens-img" src={iphoneDesignMeasure} />
                                     </div>
                                     <div className='screens-item'>
-                                        <img alt="" className="screens-img" src={iphoneMain} />
+                                        <img alt="" className="screens-img" src={iphoneDesignSettings} />
                                     </div>
                                     <div className='screens-item'>
-                                        <img alt="" className="screens-img" src={iphoneMain} />
+                                        <img alt="" className="screens-img" src={iphoneDesignFurniture} />
                                     </div>
                                     <div className='screens-item'>
-                                        <img alt="" className="screens-img" src={iphoneMain} />
+                                        <img alt="" className="screens-img" src={iphoneDesignARQuicklook1} />
                                     </div>
                                     <div className='screens-item'>
-                                        <img alt="" className="screens-img" src={iphoneMain} />
+                                        <img alt="" className="screens-img" src={iphoneDesignARQuicklook2} />
                                     </div>
 
                                 </Slider>

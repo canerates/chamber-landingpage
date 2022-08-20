@@ -344,12 +344,14 @@ input{
 div .screens-item {
     padding: 0;
     outline: none;
+    
 }
 
 .swiper-container .swiper-wrapper .slick-slider .slick-list .slick-track .slick-slide >
 div .screens-item img {
     opacity: 0.5;
     transform: scale(0.8);
+    width: 288px;
 }
 
 .swiper-container .swiper-wrapper .slick-slider .slick-list .slick-track .slick-slide img {
@@ -371,10 +373,6 @@ div .screens-item img {
 
 #screens .screens-slider {
     margin-top: -32px;
-}
-
-#screens .screens-slider .slick-dots {
-    bottom: -10px;
 }
 
 #screens .screens-slider .slick-dots li {
