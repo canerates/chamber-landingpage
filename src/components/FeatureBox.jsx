@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> 07e9bf252847a0b85a68ce570bebe31fb80b01c6
 const FeatureBox = (props) => {
     return(
         <div className='feature-box'>

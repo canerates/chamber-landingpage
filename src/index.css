@@ -5,11 +5,7 @@ body{
     padding: 0px;
     overflow-x: hidden;
     
-<<<<<<< HEAD
-    background-color: #ffffff;
-=======
     background-color: #000000;
->>>>>>> 07e9bf252847a0b85a68ce570bebe31fb80b01c6
     font-family: 'Montserrat', sans-serif;
 }
 *{
@@ -31,106 +27,6 @@ input{
 }
 .logo img{
     width: 150px;
-<<<<<<< HEAD
-}
-
-/* Navbar */
-
-.navbar {
-    background-color: transparent;
-    transition: 0.6s ease-in-out;
-    padding: 5px 20px;
-}
-
-.navbar-active {
-    box-shadow: 5px 10px 30px rgba(0, 247, 255, 0.157);
-	background-color: #1e272e;
-}
-
-.nav-item {
-    margin-right: 25px;
-}
-
-.nav-link{
-    font-family: 'Montserrat', sans-serif;
-	height:40px;
-	line-height: 43px;
-	margin: 3px;
-	padding: 0px 22px;
-	font-size: 0.9rem;
-	text-transform: uppercase;
-	font-weight: 500;
-	color:#f5f6fa;
-    letter-spacing: 1px;
-    border-radius: 3px;
-    transition: 0.2s ease-in-out;
-}
-
-.nav-link.active {
-    background-color: #00b7ff;
-    color:#f5f6fa;
-	box-shadow: 5px 10px 30px rgba(189, 198, 64, 0.411);
-	transition: all ease 0.2s;
-}
-
-.navbar-nav .nav-link.active {
-    color: #f5f6fa;
-}
-
-.nav-link:hover{
-    background-color: #00b7ff;
-    color:#ffffff;
-	box-shadow: 5px 10px 30px rgba(2, 238, 255, 0.336);
-	transition: all ease 0.2s;
-}
-
-.navbar-toggler {
-    color: white;
-    border: none;
-}
-
-.navbar-toggler-icon {
-    background-image: none;
-    background-color:#f5f6fa;
-    display:block;
-    height:2px;
-    position:relative;
-    transition: background 0.2s ease-out;
-    width:18px;
-}
-
-.navbar-toggler-icon:before, 
-    .navbar-toggler-icon:after{
-    background:#f5f6fa;
-    content:'';
-    display:block;
-    height:100%;
-    position:absolute;
-    transition:all ease-out 0.2s;
-    width:100%;   
-}
-.navbar-toggler-icon:before{
-    top:5px;
-}
-.navbar-toggler-icon:after{
-    top:-5px;
-}
-
-.navbar-toggler:focus {
-    box-shadow: none;
-}
-
-.navbar-toggler-checked .navbar-toggler-icon{
-    background:transparent;
-}
-.navbar-toggler-checked .navbar-toggler-icon:before{
-    transform: rotate(-45deg);
-    top:0;
-}
-.navbar-toggler-checked .navbar-toggler-icon:after{
-    transform: rotate(45deg);
-    top:0;
-=======
 }
 /* Loading Spinner */
 
@@ -519,5 +415,4 @@ div .screens-item img {
         text-align: center;
     }
 
->>>>>>> 07e9bf252847a0b85a68ce570bebe31fb80b01c6
 }
