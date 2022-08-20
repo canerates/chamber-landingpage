@@ -16,7 +16,7 @@ const Features = () => {
                     <Col sm='12' md='12' lg='4'>
                         <FeatureBox image={featureimage} title='Development Course' />
                     </Col>
-                </Row>
+                </Row> 
             </Container>
         </section>
     );
