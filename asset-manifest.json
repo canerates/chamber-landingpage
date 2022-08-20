@@ -1,22 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.88aaab6e.css",
-    "main.js": "/static/js/main.cd69ee36.js",
+    "main.css": "/static/css/main.28a419f1.css",
+    "main.js": "/static/js/main.5bf87a1c.js",
+    "static/media/iphone_texturetab.png": "/static/media/iphone_texturetab.00561c5d0101b896aef7.png",
+    "static/media/iphone_hometab.png": "/static/media/iphone_hometab.b6c1eb98395f693d813d.png",
+    "static/media/iphone_arquicklook2.png": "/static/media/iphone_arquicklook2.17c44b3972ad22dd4aad.png",
+    "static/media/iphone_furnituretab.png": "/static/media/iphone_furnituretab.f7aae6c79dc0d6b787c4.png",
     "static/media/background.png": "/static/media/background.daecf3cbf285143e6213.png",
+    "static/media/iphone_arquicklook1.png": "/static/media/iphone_arquicklook1.4d4b7d8b1ec4f326bb19.png",
+    "static/media/iphone_design_furniture.png": "/static/media/iphone_design_furniture.78108aa04a213ba6db29.png",
+    "static/media/iphone_design_measure.png": "/static/media/iphone_design_measure.4eb68c44d2e5429b6e15.png",
+    "static/media/iphone_design_settings.png": "/static/media/iphone_design_settings.997ff799ecd0529d0fed.png",
     "static/media/logo_web.png": "/static/media/logo_web.da946a85085e5e6862cd.png",
     "static/media/icon_web.png": "/static/media/icon_web.289b45ad2f0fc8adc6ed.png",
-    "static/media/iphone_main.png": "/static/media/iphone_main.fbab817ee2a2ce3bf645.png",
     "static/media/feature_1.png": "/static/media/feature_1.801589a0dc8faa4fad28.png",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.88aaab6e.css.map": "/static/css/main.88aaab6e.css.map",
-    "main.cd69ee36.js.map": "/static/js/main.cd69ee36.js.map"
+    "main.28a419f1.css.map": "/static/css/main.28a419f1.css.map",
+    "main.5bf87a1c.js.map": "/static/js/main.5bf87a1c.js.map"
   },
   "entrypoints": [
-    "static/css/main.88aaab6e.css",
-    "static/js/main.cd69ee36.js"
+    "static/css/main.28a419f1.css",
+    "static/js/main.5bf87a1c.js"
   ]
 }
