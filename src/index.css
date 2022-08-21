@@ -316,6 +316,8 @@ input{
 }
 
 .feature-box-img-block {
+    opacity: 0.9;
+    margin-bottom: 10px;
 }
 
 .feature-box-img {
