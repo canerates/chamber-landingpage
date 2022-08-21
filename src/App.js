@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import Loader from './components/Loader';
 import Main from './components/Main';
 import NavigationBar from './components/NavigationBar';
-import Home from './components/Home';
-import Features from './components/Features';
-import Screens from './components/Screens';
+import Home from './pages/Home';
+import Features from './pages/Features';
+import Screens from './pages/Screens';
 
 function App() {
   const [loading, setLoading] = useState(true);

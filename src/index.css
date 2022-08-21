@@ -319,6 +319,7 @@ input{
 }
 
 .feature-box-img {
+    height: 50px;
 }
 
 .feature-box-description {

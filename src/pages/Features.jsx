@@ -1,6 +1,7 @@
 import { Container, Row } from 'reactstrap';
-import SectionTitle from './SectionTitle';
-import FeatureBox from "./FeatureBox";
+import SectionTitle from '../common/SectionTitle';
+import FeatureBox from "../components/FeatureBox";
+import { FeaturesData } from '../common/database';
 
 const Features = () => {
     const title = 'Features';
@@ -12,12 +13,9 @@ const Features = () => {
             <Container>
                 <Row className='row-center'>
                     <SectionTitle title={title} text={text} />
-                    <FeatureBox title={boxTitle} details={boxDetails}/>
-                    <FeatureBox title={boxTitle} details={boxDetails}/>
-                    <FeatureBox title={boxTitle} details={boxDetails}/>
-                    <FeatureBox title={boxTitle} details={boxDetails}/>
-                    <FeatureBox title={boxTitle} details={boxDetails}/>
-                    <FeatureBox title={boxTitle} details={boxDetails}/>
+                    {FeaturesData.map( (item, index) => 
+                        <FeatureBox index={index} icon={item.icon} title={item.title} details={item.details}/>
+                    )}
                 </Row>
             </Container>
         </section>

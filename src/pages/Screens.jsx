@@ -1,6 +1,6 @@
 import { Container, Row, Col } from 'reactstrap'
 import Slider from 'react-slick';
-import SectionTitle from './SectionTitle';
+import SectionTitle from '../common/SectionTitle';
 import iphoneHomeTab from '../images/screens/iphone_hometab.png';
 import iphoneTextureTab from '../images/screens/iphone_texturetab.png';
 import iphoneFurnitureTab from '../images/screens/iphone_furnituretab.png';
