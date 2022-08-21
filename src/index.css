@@ -230,8 +230,6 @@ input{
     margin-right: 0px;
 }
 
-
-
 /* Home */
 
 #home {
@@ -300,8 +298,12 @@ input{
     background-size: cover;
 }
 
-.feature-box-container {
-    
+#features .container {
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 50px 35px 50px 35px;
+    width: 100%;
 }
 
 .feature-box {
@@ -346,6 +348,14 @@ input{
     background-size: cover;
 }
 
+#screens .container {
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 50px 0 100px 0;
+    width: 100%;
+}
+
 .swiper-container {
     margin-top: -6px;
     margin-bottom: -16px;
@@ -375,14 +385,6 @@ div .screens-item img {
     transform: scale(1);
 }
 
-#screens .container {
-    margin-bottom: 0;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 50px 0;
-    width: 100%;
-}
-
 #screens .screens-slider {
     margin-top: -32px;
 }
@@ -391,7 +393,6 @@ div .screens-item img {
     height: 5px;
     width: 16px;
 }
-
 
 #screens .screens-slider .slick-dots li button:before {
     content: 'unset';
@@ -417,10 +418,22 @@ div .screens-item img {
     box-shadow: 0 0 4px 1px #e2e2e2;
 }
 
-/* Features */
+/* Technology */
 
+#technology {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url('./images/background.png');
+    background-size: cover;
+}
 
-
+#technology .container {
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 50px 0 50px 0;
+    width: 100%;
+}
 
 /* Responsive */
 

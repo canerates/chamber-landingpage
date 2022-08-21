@@ -10,6 +10,10 @@ import iphoneDesignSettings from '../images/screens/iphone_design_settings.png';
 import iphoneDesignARQuicklook1 from '../images/screens/iphone_arquicklook1.png';
 import iphoneDesignARQuicklook2 from '../images/screens/iphone_arquicklook2.png';
 
+const pageData = {
+    title: 'Screens',
+    description: 'Chamber AR has three main sections. Home, Design AR, Scan Texture. Home section consists of three main tabs: Home Tab, Furniture Tab, Texture Tab. Design AR section provides AR View. Scan Texture section let users scan real-world texture to apply it on AR design.'
+};
 
 var settings = {
     centerMode: true,
@@ -61,13 +65,11 @@ var settings = {
 };
 
 const Screens = () => {
-    const title = 'Screens';
-    const text = 'Chamber AR has three main sections. Home, Design AR, Scan Texture. Home section consists of three main tabs: Home Tab, Furniture Tab, Texture Tab. Design AR section provides AR View. Scan Texture section let users scan real-world texture to apply it on AR design.';
     return(
         <section id='screens'>
             <Container>
                 <Row>
-                    <SectionTitle title={title} text={text} />
+                    <SectionTitle title={pageData.title} description={pageData.description} />
                 </Row>
                 <Row>
                     <Col xs='12'>

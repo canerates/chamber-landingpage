@@ -8,49 +8,51 @@ import featureIcon4 from '../images/features/feature_icon4.png';
 import featureIcon5 from '../images/features/feature_icon5.png';
 import featureIcon6 from '../images/features/feature_icon6.png';
 
-const Features = () => {
-    const pageData = {
-        title: 'Features',
-        description: 'Measure. Scan. Design',
-        features: [
-            {
-                icon: featureIcon1,
-                title: 'Measure',
-                details: 'Unlike team chat apps, Flow is designed to help your team stay focused by keeping relevant and actionable.'
-            },
-            {
-                icon: featureIcon2,
-                title: '2D & 3D Shapes',
-                details: 'Unlike team chat apps, Flow is designed to help your team stay focused by keeping relevant and actionable.'
-            },
-            {
-                icon: featureIcon3,
-                title: 'PBR',
-                details: 'Unlike team chat apps, Flow is designed to help your team stay focused by keeping relevant and actionable.'
-            },
-            {
-                icon: featureIcon4,
-                title: 'Scan',
-                details: 'Unlike team chat apps, Flow is designed to help your team stay focused by keeping relevant and actionable.'
-            },
-            {
-                icon: featureIcon5,
-                title: '3D Models',
-                details: 'Unlike team chat apps, Flow is designed to help your team stay focused by keeping relevant and actionable.'
-            },
-            {
-                icon: featureIcon6,
-                title: 'Lighting',
-                details: 'Unlike team chat apps, Flow is designed to help your team stay focused by keeping relevant and actionable.'
-            }
-        ]
-    };
+const pageData = {
+    title: 'Features',
+    description: 'Measure. Scan. Design',
+    features: [
+        {
+            icon: featureIcon1,
+            title: 'Measure',
+            details: 'Unlike team chat apps, Flow is designed to help your team stay focused by keeping relevant and actionable.'
+        },
+        {
+            icon: featureIcon2,
+            title: '2D & 3D Shapes',
+            details: 'Unlike team chat apps, Flow is designed to help your team stay focused by keeping relevant and actionable.'
+        },
+        {
+            icon: featureIcon3,
+            title: 'PBR',
+            details: 'Unlike team chat apps, Flow is designed to help your team stay focused by keeping relevant and actionable.'
+        },
+        {
+            icon: featureIcon4,
+            title: 'Scan',
+            details: 'Unlike team chat apps, Flow is designed to help your team stay focused by keeping relevant and actionable.'
+        },
+        {
+            icon: featureIcon5,
+            title: '3D Models',
+            details: 'Unlike team chat apps, Flow is designed to help your team stay focused by keeping relevant and actionable.'
+        },
+        {
+            icon: featureIcon6,
+            title: 'Lighting',
+            details: 'Unlike team chat apps, Flow is designed to help your team stay focused by keeping relevant and actionable.'
+        }
+    ]
+};
 
+const Features = () => {
     return(
         <section id='features'>
             <Container>
-                <Row className='row-center'>
-                    <SectionTitle title={pageData.title} text={pageData.description} />
+                <Row>
+                    <SectionTitle title={pageData.title} description={pageData.description} />
+                </Row>
+                <Row>
                     {pageData.features.map( (item, index) => 
                         <FeatureBox index={index} icon={item.icon} title={item.title} details={item.details}/>
                     )}

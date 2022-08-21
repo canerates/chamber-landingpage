@@ -10,7 +10,7 @@ const SectionTitle = (props) => {
                     <h1><span>{props.title}</span></h1>
                 </div>
                 <div className="sub-title">
-                    <p>{props.text}</p>
+                    <p>{props.description}</p>
                 </div>
             </div>
         </Col>

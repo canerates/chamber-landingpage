@@ -5,6 +5,7 @@ import NavigationBar from './components/NavigationBar';
 import Home from './pages/Home';
 import Features from './pages/Features';
 import Screens from './pages/Screens';
+import Technology from './pages/Technology';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -27,6 +28,7 @@ function App() {
         <Home />
         <Features/>
         <Screens />
+        <Technology />
       </Main>
       
     </div>
