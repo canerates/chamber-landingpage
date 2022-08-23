@@ -14,7 +14,8 @@ import { Link } from 'react-scroll';
 const links = [
     { to: 'home', text: 'Home' },
     { to: 'features', text: 'Features' },
-    { to: 'screens', text: 'Screens' }
+    { to: 'screens', text: 'Screens' },
+    { to: 'technology', text: 'Technology' }
 ];
   
 const createNavItem = ({ to, text, className }) => (
@@ -43,8 +44,7 @@ const NavigationBar = () => {
     window.addEventListener('scroll', changeBackground);
 
     return(
-        <div>
-            <Navbar expand='md' fixed='top' container='md' className={navStatus || isOpen ? 'navbar-active' : ''}>
+            <Navbar expand='lg' fixed='top' container='lg' className={navStatus || isOpen ? 'navbar-active' : ''}>
                 <NavbarBrand href="#home">
                     <div className='logo'>
                         <img src={logo} alt=''/>
@@ -57,7 +57,6 @@ const NavigationBar = () => {
                 </Nav>
                 </Collapse>
             </Navbar>
-        </div>
     );
 }
 

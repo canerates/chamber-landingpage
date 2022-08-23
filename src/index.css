@@ -29,6 +29,13 @@ input{
     width: 150px;
 }
 
+.bg-red-test {
+    background-color: red;
+}
+.bg-green-test {
+    background-color: green;
+}
+
 /* Common */
 
 .sections-title {
@@ -137,8 +144,8 @@ input{
 }
 
 .nav-item {
-    margin-right: 15px;
-    margin-left: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .nav-link{
@@ -323,10 +330,7 @@ input{
 }
 
 .feature-box-img {
-    height: 50px;
-}
-
-.feature-box-description {
+    height: 65px;
 }
 
 .feature-box-text {
@@ -405,7 +409,6 @@ div .screens-item img {
     opacity: 1;
 }
 
-
 #screens .screens-slider .slick-dots li.slick-active {
     width: 39px;
     height: 5px;
@@ -431,15 +434,81 @@ div .screens-item img {
     margin-bottom: 0;
     margin-right: auto;
     margin-left: auto;
-    padding: 50px 0 50px 0;
+    padding: 50px 35px 50px 35px;
     width: 100%;
 }
+
+.tech-box {
+    margin-bottom: 30px;
+    border-radius: 15px;
+    border-color: rgba(255,255,255,.08);
+    box-shadow: 0 0 10px 5px rgb(255 255 255 / 8%);
+    transition: all 1s;
+    text-align: center;
+    align-items: center;
+    padding: 25px 20px;
+    background-color: rgb(30, 39, 46, 0.6);
+}
+
+.tech-box-description {
+    text-align: left;
+}
+
+.tech-box-img-block {
+    opacity: 0.8;
+}
+
+.tech-box-img {
+    width: 80%;
+}
+
+.tech-box-text {
+    color: #e7eaec;
+    letter-spacing: 0;
+}
+
+.tech-box-description p {
+    color: #969696;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+    line-clamp: 3; 
+    -webkit-box-orient: vertical;
+}
+
+.tech-box-button {
+    
+    background-color: #00b7ff;
+    box-shadow: 5px 10px 30px rgba(2, 238, 255, 0.336);
+	color:#ffffff;
+}
+
+.tech-box-button:hover{
+	background-color: #0099ff;
+    transition: all ease 0.5s;
+    color: #ffffff;
+}
+
 
 /* Responsive */
 
 @media(max-width:992px){
 	.home-description {
         text-align: center;
+    }
+
+}
+
+@media(max-width:575px){
+	.tech-box-description {
+        text-align: center;
+    }
+    .tech-box-img-block {
+        margin-bottom: 1em;
+    }
+    .tech-box-img {
+        width: 60%;
     }
 
 }
