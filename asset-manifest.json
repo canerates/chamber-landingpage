@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f1385d0c.css",
-    "main.js": "/static/js/main.6848b038.js",
+    "main.css": "/static/css/main.8a262838.css",
+    "main.js": "/static/js/main.73380725.js",
     "static/media/iphone_texturetab.png": "/static/media/iphone_texturetab.00561c5d0101b896aef7.png",
     "static/media/iphone_hometab.png": "/static/media/iphone_hometab.b6c1eb98395f693d813d.png",
     "static/media/iphone_arquicklook2.png": "/static/media/iphone_arquicklook2.17c44b3972ad22dd4aad.png",
@@ -14,8 +14,14 @@
     "static/media/logo_web.png": "/static/media/logo_web.da946a85085e5e6862cd.png",
     "static/media/feature_icon3.png": "/static/media/feature_icon3.ee0cc6ade0f47c95def9.png",
     "static/media/icon_web.png": "/static/media/icon_web.289b45ad2f0fc8adc6ed.png",
+    "static/media/firebase_logo.png": "/static/media/firebase_logo.6155eef83c64fd06833e.png",
+    "static/media/swift_logo.png": "/static/media/swift_logo.35908c68f5ee80e67233.png",
+    "static/media/realitykit_logo.png": "/static/media/realitykit_logo.f559a535d6a65526df23.png",
+    "static/media/arkit_logo.png": "/static/media/arkit_logo.53c509abdd81962af58f.png",
     "static/media/feature_icon6.png": "/static/media/feature_icon6.362671ebd4e7bca062bf.png",
+    "static/media/swiftui_logo.png": "/static/media/swiftui_logo.17e1fd5d445c9805a6fc.png",
     "static/media/feature_icon2.png": "/static/media/feature_icon2.9680ce358488fc29511a.png",
+    "static/media/combine_logo.png": "/static/media/combine_logo.dadcad5e5deab22b518a.png",
     "static/media/feature_icon1.png": "/static/media/feature_icon1.3349ddc54862aca8cee4.png",
     "static/media/feature_icon4.png": "/static/media/feature_icon4.ec3dd1cab50f8dc50356.png",
     "static/media/feature_icon5.png": "/static/media/feature_icon5.0ca22c3110a4a34e6717.png",
@@ -24,11 +30,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.f1385d0c.css.map": "/static/css/main.f1385d0c.css.map",
-    "main.6848b038.js.map": "/static/js/main.6848b038.js.map"
+    "main.8a262838.css.map": "/static/css/main.8a262838.css.map",
+    "main.73380725.js.map": "/static/js/main.73380725.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1385d0c.css",
-    "static/js/main.6848b038.js"
+    "static/css/main.8a262838.css",
+    "static/js/main.73380725.js"
   ]
 }
