@@ -19,17 +19,17 @@ const pageData = {
         },
         {
             icon: featureIcon2,
-            title: '2D & 3D Shapes',
+            title: 'AR Layout',
             details: 'Unlike team chat apps, Flow is designed to help your team stay focused by keeping relevant and actionable.'
         },
         {
             icon: featureIcon3,
-            title: 'PBR',
+            title: 'PBR Texture',
             details: 'Unlike team chat apps, Flow is designed to help your team stay focused by keeping relevant and actionable.'
         },
         {
             icon: featureIcon4,
-            title: 'Scan',
+            title: 'Scan Texture',
             details: 'Unlike team chat apps, Flow is designed to help your team stay focused by keeping relevant and actionable.'
         },
         {

@@ -15,7 +15,8 @@ const links = [
     { to: 'home', text: 'Home' },
     { to: 'features', text: 'Features' },
     { to: 'screens', text: 'Screens' },
-    { to: 'technology', text: 'Technology' }
+    { to: 'technology', text: 'Technology' },
+    { to: 'designs', text: 'Designs' },
 ];
   
 const createNavItem = ({ to, text, className }) => (
