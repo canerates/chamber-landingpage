@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2bb07370.css",
-    "main.js": "/static/js/main.6b41da75.js",
+    "main.js": "/static/js/main.acadcbd7.js",
     "static/media/background.png": "/static/media/background.daecf3cbf285143e6213.png",
     "static/media/iphone_texturetab.png": "/static/media/iphone_texturetab.54a3bb6edc18e869deb0.png",
     "static/media/iphone_hometab.png": "/static/media/iphone_hometab.bb0ef383d753b1162824.png",
@@ -28,6 +28,7 @@
     "static/media/realitykit_logo.png": "/static/media/realitykit_logo.f559a535d6a65526df23.png",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/arkit_logo.png": "/static/media/arkit_logo.53c509abdd81962af58f.png",
+    "static/media/loader.png": "/static/media/loader.f91f8d654369cc3985cd.png",
     "static/media/feature_icon6.png": "/static/media/feature_icon6.362671ebd4e7bca062bf.png",
     "static/media/swiftui_logo.png": "/static/media/swiftui_logo.17e1fd5d445c9805a6fc.png",
     "static/media/feature_icon2.png": "/static/media/feature_icon2.9680ce358488fc29511a.png",
@@ -41,10 +42,10 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.2bb07370.css.map": "/static/css/main.2bb07370.css.map",
-    "main.6b41da75.js.map": "/static/js/main.6b41da75.js.map"
+    "main.acadcbd7.js.map": "/static/js/main.acadcbd7.js.map"
   },
   "entrypoints": [
     "static/css/main.2bb07370.css",
-    "static/js/main.6b41da75.js"
+    "static/js/main.acadcbd7.js"
   ]
 }
