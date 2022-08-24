@@ -242,7 +242,7 @@ input{
 #home {
     width: 100%;
     background-repeat: no-repeat;
-    background-image: url('./images/background.png');
+    background-image: url('./images/common/background.png');
     background-size: cover;
 }
 
@@ -301,7 +301,7 @@ input{
 #features {
     width: 100%;
     background-repeat: no-repeat;
-    background-image: url('./images/background.png');
+    background-image: url('./images/common/background.png');
     background-size: cover;
 }
 
@@ -348,7 +348,7 @@ input{
 #screens {
     width: 100%;
     background-repeat: no-repeat;
-    background-image: url('./images/background.png');
+    background-image: url('./images/common/background.png');
     background-size: cover;
 }
 
@@ -426,7 +426,7 @@ div .screens-item img {
 #technology {
     width: 100%;
     background-repeat: no-repeat;
-    background-image: url('./images/background.png');
+    background-image: url('./images/common/background.png');
     background-size: cover;
 }
 
@@ -495,7 +495,7 @@ div .screens-item img {
 #designs {
     width: 100%;
     background-repeat: no-repeat;
-    background-image: url('./images/background.png');
+    background-image: url('./images/common/background.png');
     background-size: cover;
 }
 

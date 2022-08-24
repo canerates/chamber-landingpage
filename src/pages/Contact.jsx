@@ -1,5 +1,5 @@
 import { Container, Row, Col } from 'reactstrap';
-import logo from '../images/logo_web.png';
+import logo from '../images/common/logo_web.png';
 
 const Contact = () => {
     return(

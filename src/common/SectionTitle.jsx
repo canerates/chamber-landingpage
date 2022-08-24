@@ -1,5 +1,5 @@
 import { Col } from 'reactstrap';
-import iconImg from '../images/icon_web.png';
+import iconImg from '../images/common/icon_web.png';
 
 const SectionTitle = (props) => {
     return(
