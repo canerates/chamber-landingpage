@@ -1,6 +1,37 @@
 <!DOCTYPE html>
 <html lang="en" style="overflow-x: hidden;">
   <head>
+    <style>
+      .loader {
+          display: block;
+          position: absolute;
+          z-index: 1;
+          background-color: black;
+      }
+      #spinner {
+          -webkit-animation: sk-scaleout 1.5s infinite ease-in-out;
+          animation: sk-scaleout 1.5s infinite ease-in-out;
+          width: 100vw;
+          height: 100vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+      #spinner img {
+          width: 15%;
+      }
+      @keyframes sk-scaleout {
+          0% {
+            -webkit-transform: scale(0);
+            transform: scale(0);
+          }
+          100% {
+            -webkit-transform: scale(1.0);
+            opacity: 0;
+            transform: scale(1.0);
+          }
+      }
+    </style>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -14,6 +45,12 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div id="root">
+      <div className='loader'>
+        <div id='spinner' >
+            <img src='./loader.png' alt='loading...' />
+        </div>
+      </div>
+    </div>
   </body>
 </html>

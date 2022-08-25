@@ -8,15 +8,19 @@ import Screens from './pages/Screens';
 import Technology from './pages/Technology';
 import Designs from './pages/Designs';
 
+
 function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      setLoading(false)
-    }, 3000);
-  
-    return () => clearInterval(interval);
+    Promise.all(
+      Array.from(document.images)
+          .filter(img => !img.complete)
+          .map(img => new Promise(
+              resolve => { img.onload = img.onerror = resolve; }
+          ))).then(() => {
+              setLoading(false);
+          });
 
   },[]);
 
