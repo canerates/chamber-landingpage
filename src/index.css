@@ -624,13 +624,39 @@ div .designs-item img {
 
 /* Responsive */
 
-@media(max-width:992px){
+@media (min-width:575px) and (max-width:992px){
 	.home-description {
         text-align: center;
     }
     .social-item {
         display: list-item;
     }
+    
+    .navbar-collapse {
+        position: fixed;
+        height: 100%;
+        top: 68px;
+        right: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        background-color: #1e272e;
+        
+      }
+      
+      .navbar-collapse.collapsing {
+        right: -75%;
+        transition: height 0s ease;
+      }
+      
+      .navbar-collapse.show {
+        right: 0;
+        transition: right 300ms ease-in-out;
+      }
+      
+      .navbar-toggler.collapsed~.navbar-collapse {
+        transition: right 500ms ease-in-out;
+      }
 
 }
 
