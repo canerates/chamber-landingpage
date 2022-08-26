@@ -1,4 +1,4 @@
-# Chamber AR Application Showcase Page
+# Chamber AR Application Showcase Single Page
 
 ## Home
 ![Screenshot](./page_home.png)

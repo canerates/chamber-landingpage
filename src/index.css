@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
-
+@import '../node_modules/react-modal-video/scss/modal-video.scss';
 body{
     margin:0px;
     padding: 0px;
@@ -286,14 +286,14 @@ input{
 .cv-btn {
     
     background-color: #00b7ff;
-    box-shadow: 5px 10px 30px rgba(2, 238, 255, 0.336);
 	color:#ffffff;
 }
 
 .cv-btn:hover{
 	background-color: #0099ff;
+    box-shadow: 5px 10px 30px rgba(2, 238, 255, 0.336);
     transition: all ease 0.5s;
-    color: #ffffff;
+    color: #e7eaec;
 }
 
 /* Features */
@@ -318,10 +318,18 @@ input{
     border-radius: 15px;
     border-color: rgba(255,255,255,.08);
     box-shadow: 0 0 10px 5px rgb(255 255 255 / 8%);
-    transition: all 1s;
+    transition: all 0.6s;
     text-align: center;
     padding: 40px 25px;
     background-color: rgb(30, 39, 46, 0.6);
+    cursor: pointer;
+    transform: scale(0.97);
+}
+
+.feature-box:hover {
+    box-shadow: 0 0 10px 5px rgb(255 255 255 / 25%);
+    background-color: rgb(30, 39, 46, 0.8);
+    transform: scale(1.00);
 }
 
 .feature-box-img-block {
@@ -342,6 +350,18 @@ input{
     color: #969696;
 }
 
+.feature-box-button {
+    
+    background-color: #00b7ff;
+	color:#ffffff;
+}
+
+.feature-box-button:hover{
+	background-color: #0099ff;
+    box-shadow: 5px 10px 20px rgba(2, 238, 255, 0.336);
+    transition: all ease 0.5s;
+    color: #e7eaec;
+}
 
 /* Screens */
 
@@ -480,14 +500,14 @@ div .screens-item img {
 .tech-box-button {
     
     background-color: #00b7ff;
-    box-shadow: 5px 10px 30px rgba(2, 238, 255, 0.336);
-	color:#ffffff;
+	color: #ffffff;
 }
 
 .tech-box-button:hover{
 	background-color: #0099ff;
+    box-shadow: 5px 10px 20px rgba(2, 238, 255, 0.336);
     transition: all ease 0.5s;
-    color: #ffffff;
+    color: #e7eaec;
 }
 
 /* Designs */
@@ -641,7 +661,6 @@ div .designs-item img {
         padding-right: 15px;
         padding-bottom: 15px;
         background-color: #1e272e;
-        
       }
       
       .navbar-collapse.collapsing {
@@ -655,12 +674,19 @@ div .designs-item img {
       }
       
       .navbar-toggler.collapsed~.navbar-collapse {
-        transition: right 500ms ease-in-out;
+        transition: right 300ms ease-in-out;
       }
 
 }
 
 @media(max-width:575px){
+    .home-description {
+        text-align: center;
+    }
+    .social-item {
+        display: list-item;
+    }
+
 	.tech-box-description {
         text-align: center;
     }
@@ -679,3 +705,147 @@ div .designs-item img {
     }
 
 }
+
+/* Modal Video */
+
+@media (orientation: landscape) {
+    .modal-video-inner {
+        padding: 10px 60px;
+        box-sizing: border-box;
+    }
+}
+
+@keyframes modal-video{
+    from{
+        opacity:0
+    }
+    to{
+        opacity:1
+    }
+}
+@keyframes modal-video-inner{
+    from{
+        transform:translate(0, 100px)
+    }
+    to{
+        transform:translate(0, 0)
+    }
+}
+.modal-video{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,0.5);
+    z-index:1000000;
+    cursor:pointer;
+    outline: none;
+    opacity:1;
+    animation-timing-function:ease-out;
+    animation-duration:.3s;
+    animation-name:modal-video;
+    -webkit-transition:opacity .3s ease-out;
+    -moz-transition:opacity .3s ease-out;
+    -ms-transition:opacity .3s ease-out;
+    -o-transition:opacity .3s ease-out;
+    transition:opacity .3s ease-out
+    
+}
+.modal-video-effect-exit{
+    opacity:0
+}
+.modal-video-effect-exit .modal-video-movie-wrap{
+    -webkit-transform:translate(0, 100px);
+    -moz-transform:translate(0, 100px);
+    -ms-transform:translate(0, 100px);
+    -o-transform:translate(0, 100px);
+    transform:translate(0, 100px)
+}
+.modal-video-body{
+    max-width:960px;
+    width:100%;
+    height:100%;
+    margin:0 auto;
+    padding:0 10px;
+    display:flex;
+    justify-content:center;
+    box-sizing:border-box
+}
+.modal-video-inner{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:100%
+}
+@media (orientation: landscape){
+    .modal-video-inner{
+        padding:0px 30px;
+        box-sizing:border-box
+    }
+}
+.modal-video-movie-wrap{
+    width:100%;
+    height:0;
+    position:relative;
+    padding-bottom:56.25%;
+    background-color:#333;
+    animation-timing-function:ease-out;
+    animation-duration:.3s;
+    animation-name:modal-video-inner;
+    -webkit-transform:translate(0, 0);
+    -moz-transform:translate(0, 0);
+    -ms-transform:translate(0, 0);
+    -o-transform:translate(0, 0);
+    transform:translate(0, 0);
+    -webkit-transition:-webkit-transform .3s ease-out;
+    -moz-transition:-moz-transform .3s ease-out;
+    -ms-transition:-ms-transform .3s ease-out;
+    -o-transition:-o-transform .3s ease-out;
+    transition:transform .3s ease-out
+}
+.modal-video-movie-wrap iframe{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%
+}
+.modal-video-close-btn{
+    position:absolute;
+    z-index:2;
+    top:15px;
+    right:15px;
+    display:inline-block;
+    width:25px;
+    height:25px;
+    overflow:hidden;
+    border:none;
+    background:transparent
+}
+@media (orientation: landscape){
+    .modal-video-close-btn{
+        top:5px;
+        right:-35px
+    }
+}
+.modal-video-close-btn:before{
+    transform:rotate(45deg)
+}
+.modal-video-close-btn:after{
+    transform:rotate(-45deg)
+}
+.modal-video-close-btn:before,.modal-video-close-btn:after{
+    content:'';
+    position:absolute;
+    height:2px;
+    width:100%;
+    top:50%;
+    left:0;
+    margin-top:-1px;
+    background:#fff;
+    border-radius:5px;
+    margin-top:-6px
+}
+ 
