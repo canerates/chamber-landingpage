@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ceffa89a.css",
-    "main.js": "/static/js/main.e6352e10.js",
+    "main.js": "/static/js/main.22bf832c.js",
     "static/media/test.MP4": "/static/media/test.63f874c6e71a3041a37e.MP4",
     "static/media/background.png": "/static/media/background.daecf3cbf285143e6213.png",
     "static/media/iphone_texturetab.png": "/static/media/iphone_texturetab.54a3bb6edc18e869deb0.png",
@@ -43,10 +43,10 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.ceffa89a.css.map": "/static/css/main.ceffa89a.css.map",
-    "main.e6352e10.js.map": "/static/js/main.e6352e10.js.map"
+    "main.22bf832c.js.map": "/static/js/main.22bf832c.js.map"
   },
   "entrypoints": [
     "static/css/main.ceffa89a.css",
-    "static/js/main.e6352e10.js"
+    "static/js/main.22bf832c.js"
   ]
 }
