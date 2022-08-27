@@ -7,8 +7,7 @@ import iphoneFurnitureTab from '../images/screens/iphone_furnituretab.png';
 import iphoneDesignMeasure from '../images/screens/iphone_design_measure.png';
 import iphoneDesignFurniture from '../images/screens/iphone_design_furniture.png';
 import iphoneDesignSettings from '../images/screens/iphone_design_settings.png';
-import iphoneDesignARQuicklook1 from '../images/screens/iphone_arquicklook1.png';
-import iphoneDesignARQuicklook2 from '../images/screens/iphone_arquicklook2.png';
+import iphoneDesignARQuicklook from '../images/screens/iphone_arquicklook.png';
 
 const pageData = {
     title: 'Screens',
@@ -95,10 +94,7 @@ const Screens = () => {
                                         <img alt='' className='screens-img' src={iphoneDesignFurniture} />
                                     </div>
                                     <div className='screens-item'>
-                                        <img alt='' className='screens-img' src={iphoneDesignARQuicklook1} />
-                                    </div>
-                                    <div className='screens-item'>
-                                        <img alt='' className='screens-img' src={iphoneDesignARQuicklook2} />
+                                        <img alt='' className='screens-img' src={iphoneDesignARQuicklook} />
                                     </div>
 
                                 </Slider>

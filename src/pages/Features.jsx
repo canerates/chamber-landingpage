@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Container, Row, Modal, ModalBody } from 'reactstrap';
+import { Container, Row, Modal } from 'reactstrap';
 import ReactPlayer from 'react-player';
 import SectionTitle from '../common/SectionTitle';
 import FeatureBox from "../components/FeatureBox";
@@ -60,14 +60,10 @@ const pageData = {
     ]
 };
 
-
-
 const Features = () => {
     const [isOpen, setOpen] = useState(false);
     const [selectedIndex, setSelectedIndex] = useState(0);
-    const ratio = '' + window.innerWidth + ':' + window.innerHeight;
-    const modalRatio = (window.innerWidth > '1050' &&  window.innerHeight > '550') ? '' : ratio;
-    
+
     const openModal = (index) => {
         setOpen(true);
         setSelectedIndex(index);
@@ -89,16 +85,16 @@ const Features = () => {
                     )}
                 </Row>
                 {/* <ModalVideo channel='custom' url={pageData.features[selectedIndex].video} ratio={modalRatio} autoplay={1} isOpen={isOpen} onClose={() => closeModal()} /> */}
-                <Modal isOpen={isOpen} toggle={closeModal}>
+                <Modal isOpen={isOpen} toggle={closeModal} backdrop='static' keyboard='false'>
                     <button onClick={closeModal} className='modal-video-close-btn'></button>
                     <ReactPlayer
                         url={pageData.features[selectedIndex].video}
                         width='100%'
                         height='calc(100vh - 100px)'
-                        controls='true'
-                        playing='true'
+                        controls={true}
+                        playing={isOpen}
                         volume={1}
-                        muted='true'
+                        muted={true}
                     />
                 </Modal>
             </Container>
