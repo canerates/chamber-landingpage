@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
 
+:root {
+    --bg-image: linear-gradient(180deg, rgba(0,0,0,0.6), rgba(255,255,255, 0.1) 60%, rgb(0, 0, 0, 0.6)), url('./images/common/background2.jpg');
+}
+
 body{
     margin:0px;
     padding: 0px;
@@ -7,6 +11,7 @@ body{
     
     background-color: #000000;
     font-family: 'Montserrat', sans-serif;
+
 }
 *{
     box-sizing: border-box;
@@ -242,7 +247,7 @@ input{
 #home {
     width: 100%;
     background-repeat: no-repeat;
-    background-image: url('./images/common/background.png');
+    background-image: var(--bg-image);
     background-size: cover;
 }
 
@@ -301,7 +306,7 @@ input{
 #features {
     width: 100%;
     background-repeat: no-repeat;
-    background-image: url('./images/common/background.png');
+    background-image: var(--bg-image);
     background-size: cover;
 }
 
@@ -368,7 +373,7 @@ input{
 #screens {
     width: 100%;
     background-repeat: no-repeat;
-    background-image: url('./images/common/background.png');
+    background-image: var(--bg-image);
     background-size: cover;
 }
 
@@ -446,7 +451,7 @@ div .screens-item img {
 #technology {
     width: 100%;
     background-repeat: no-repeat;
-    background-image: url('./images/common/background.png');
+    background-image: var(--bg-image);
     background-size: cover;
 }
 
@@ -515,7 +520,7 @@ div .screens-item img {
 #designs {
     width: 100%;
     background-repeat: no-repeat;
-    background-image: url('./images/common/background.png');
+    background-image: var(--bg-image);
     background-size: cover;
 }
 
