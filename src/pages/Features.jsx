@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { Container, Row } from 'reactstrap';
-import ModalVideo from 'react-modal-video';
+import { Container, Row, Modal, ModalBody } from 'reactstrap';
+import ReactPlayer from 'react-player';
 import SectionTitle from '../common/SectionTitle';
 import FeatureBox from "../components/FeatureBox";
 import featureIcon1 from '../images/features/feature_icon1.png';
@@ -15,6 +15,7 @@ import featureVideo3 from '../videos/test.MP4';
 import featureVideo4 from '../videos/test.MP4';
 import featureVideo5 from '../videos/test.MP4';
 import featureVideo6 from '../videos/test.MP4';
+
 
 const pageData = {
     title: 'Features',
@@ -59,13 +60,21 @@ const pageData = {
     ]
 };
 
+
+
 const Features = () => {
     const [isOpen, setOpen] = useState(false);
     const [selectedIndex, setSelectedIndex] = useState(0);
-
-    const handler = (index) => {
+    const ratio = '' + window.innerWidth + ':' + window.innerHeight;
+    const modalRatio = (window.innerWidth > '1050' &&  window.innerHeight > '550') ? '' : ratio;
+    
+    const openModal = (index) => {
         setOpen(true);
         setSelectedIndex(index);
+    }
+
+    const closeModal = () => {
+        setOpen(false);
     }
 
     return(
@@ -76,12 +85,25 @@ const Features = () => {
                 </Row>
                 <Row>
                     {pageData.features.map( (item, index) => 
-                        <FeatureBox handler={handler} index={index} icon={item.icon} title={item.title} details={item.details}/>
+                        <FeatureBox handler={openModal} index={index} icon={item.icon} title={item.title} details={item.details}/>
                     )}
                 </Row>
-                <ModalVideo channel='custom' url={pageData.features[selectedIndex].video} ratio='207:446' autoplay isOpen={isOpen} onClose={() => setOpen(false)} />
+                {/* <ModalVideo channel='custom' url={pageData.features[selectedIndex].video} ratio={modalRatio} autoplay={1} isOpen={isOpen} onClose={() => closeModal()} /> */}
+                <Modal isOpen={isOpen} toggle={closeModal}>
+                    <button onClick={closeModal} className='modal-video-close-btn'></button>
+                    <ReactPlayer
+                        url={pageData.features[selectedIndex].video}
+                        width='100%'
+                        height='calc(100vh - 100px)'
+                        controls='true'
+                        playing='true'
+                        volume={1}
+                        muted='true'
+                    />
+                </Modal>
             </Container>
         </section>
+        
     );
 };
 
