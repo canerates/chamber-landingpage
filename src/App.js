@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Preloader from './components/Preloader';
 import Loader from './components/Loader';
 import Main from './components/Main';
 import NavigationBar from './components/NavigationBar';
@@ -26,6 +27,7 @@ function App() {
 
   return(
     <div className='App'>
+      <Preloader />
       <Loader isLoading={loading} />
       
       <Main isLoading={loading}>

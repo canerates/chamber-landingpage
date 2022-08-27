@@ -85,7 +85,7 @@ const Features = () => {
                     )}
                 </Row>
                 {/* <ModalVideo channel='custom' url={pageData.features[selectedIndex].video} ratio={modalRatio} autoplay={1} isOpen={isOpen} onClose={() => closeModal()} /> */}
-                <Modal isOpen={isOpen} toggle={closeModal} backdrop='static' keyboard='false'>
+                <Modal isOpen={isOpen} toggle={closeModal} backdrop='static' keyboard={false}>
                     <button onClick={closeModal} className='modal-video-close-btn'></button>
                     <ReactPlayer
                         url={pageData.features[selectedIndex].video}
