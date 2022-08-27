@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ceffa89a.css",
-    "main.js": "/static/js/main.22bf832c.js",
+    "main.js": "/static/js/main.25da699a.js",
     "static/media/test.MP4": "/static/media/test.63f874c6e71a3041a37e.MP4",
     "static/media/background.png": "/static/media/background.daecf3cbf285143e6213.png",
     "static/media/iphone_texturetab.png": "/static/media/iphone_texturetab.54a3bb6edc18e869deb0.png",
@@ -10,10 +10,9 @@
     "static/media/layout2.png": "/static/media/layout2.b6ee271837753517a196.png",
     "static/media/layout3.png": "/static/media/layout3.db71668610a0fed4c5a4.png",
     "static/media/layout4.png": "/static/media/layout4.f19583ae419aa6a8ea17.png",
-    "static/media/iphone_arquicklook2.png": "/static/media/iphone_arquicklook2.23576674142462126aba.png",
     "static/media/layout1.png": "/static/media/layout1.88bf1319c83be22ff662.png",
     "static/media/iphone_furnituretab.png": "/static/media/iphone_furnituretab.cc42cf8d863574d1f625.png",
-    "static/media/iphone_arquicklook1.png": "/static/media/iphone_arquicklook1.89449787f3dc06cb5f9c.png",
+    "static/media/iphone_arquicklook.png": "/static/media/iphone_arquicklook.89449787f3dc06cb5f9c.png",
     "static/media/iphone_design_furniture.png": "/static/media/iphone_design_furniture.7b0938ec059e82c44b7c.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/iphone_design_measure.png": "/static/media/iphone_design_measure.bbf1b19a136bc43a3419.png",
@@ -43,10 +42,10 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.ceffa89a.css.map": "/static/css/main.ceffa89a.css.map",
-    "main.22bf832c.js.map": "/static/js/main.22bf832c.js.map"
+    "main.25da699a.js.map": "/static/js/main.25da699a.js.map"
   },
   "entrypoints": [
     "static/css/main.ceffa89a.css",
-    "static/js/main.22bf832c.js"
+    "static/js/main.25da699a.js"
   ]
 }
