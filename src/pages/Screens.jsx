@@ -5,9 +5,12 @@ import iphoneHomeTab from '../images/screens/iphone_hometab.png';
 import iphoneTextureTab from '../images/screens/iphone_texturetab.png';
 import iphoneFurnitureTab from '../images/screens/iphone_furnituretab.png';
 import iphoneDesignMeasure from '../images/screens/iphone_design_measure.png';
-import iphoneDesignFurniture from '../images/screens/iphone_design_furniture.png';
+import iphoneDesignFurnitures from '../images/screens/iphone_design_furnitures.png';
+import iphoneDesignTextures from '../images/screens/iphone_design_textures.png';
 import iphoneDesignSettings from '../images/screens/iphone_design_settings.png';
 import iphoneDesignARQuicklook from '../images/screens/iphone_arquicklook.png';
+import iphoneDesignMain1 from '../images/screens/iphone_design_main1.png';
+import iphoneDesignMain2 from '../images/screens/iphone_design_main2.png';
 
 const pageData = {
     title: 'Screens',
@@ -82,21 +85,29 @@ const Screens = () => {
                                         <img alt='' className='screens-img' src={iphoneFurnitureTab} />
                                     </div>
                                     <div className='screens-item'>
+                                        <img alt='' className='screens-img' src={iphoneDesignARQuicklook} />
+                                    </div>
+                                    <div className='screens-item'>
                                         <img alt='' className='screens-img' src={iphoneTextureTab} />
+                                    </div>
+                                    <div className='screens-item'>
+                                        <img alt='' className='screens-img' src={iphoneDesignMain1} />
                                     </div>
                                     <div className='screens-item'>
                                         <img alt='' className='screens-img' src={iphoneDesignMeasure} />
                                     </div>
                                     <div className='screens-item'>
+                                        <img alt='' className='screens-img' src={iphoneDesignMain2} />
+                                    </div>
+                                    <div className='screens-item'>
+                                        <img alt='' className='screens-img' src={iphoneDesignTextures} />
+                                    </div>
+                                    <div className='screens-item'>
                                         <img alt='' className='screens-img' src={iphoneDesignSettings} />
                                     </div>
                                     <div className='screens-item'>
-                                        <img alt='' className='screens-img' src={iphoneDesignFurniture} />
+                                        <img alt='' className='screens-img' src={iphoneDesignFurnitures} />
                                     </div>
-                                    <div className='screens-item'>
-                                        <img alt='' className='screens-img' src={iphoneDesignARQuicklook} />
-                                    </div>
-
                                 </Slider>
                             </div>
                         </div>
