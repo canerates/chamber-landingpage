@@ -14,7 +14,7 @@ import featureVideo2 from '../videos/placeholder.MP4';
 import featureVideo3 from '../videos/placeholder.MP4';
 import featureVideo4 from '../videos/placeholder.MP4';
 import featureVideo5 from '../videos/placeholder.MP4';
-import featureVideo6 from '../videos/placeholder.MP4';
+import featureVideo6 from '../videos/lighting.MP4';
 
 
 const pageData = {
