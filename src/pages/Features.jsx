@@ -9,12 +9,12 @@ import featureIcon3 from '../images/features/feature_icon3.png';
 import featureIcon4 from '../images/features/feature_icon4.png';
 import featureIcon5 from '../images/features/feature_icon5.png';
 import featureIcon6 from '../images/features/feature_icon6.png';
-import featureVideo1 from '../videos/test.MP4';
-import featureVideo2 from '../videos/test.MP4';
-import featureVideo3 from '../videos/test.MP4';
-import featureVideo4 from '../videos/test.MP4';
-import featureVideo5 from '../videos/test.MP4';
-import featureVideo6 from '../videos/test.MP4';
+import featureVideo1 from '../videos/placeholder.MP4';
+import featureVideo2 from '../videos/placeholder.MP4';
+import featureVideo3 from '../videos/placeholder.MP4';
+import featureVideo4 from '../videos/placeholder.MP4';
+import featureVideo5 from '../videos/placeholder.MP4';
+import featureVideo6 from '../videos/placeholder.MP4';
 
 
 const pageData = {
