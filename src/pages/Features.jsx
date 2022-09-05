@@ -11,7 +11,7 @@ import featureIcon5 from '../images/features/feature_icon5.png';
 import featureIcon6 from '../images/features/feature_icon6.png';
 import featureVideo1 from '../videos/placeholder.MP4';
 import featureVideo2 from '../videos/placeholder.MP4';
-import featureVideo3 from '../videos/placeholder.MP4';
+import featureVideo3 from '../videos/pbr.mov';
 import featureVideo4 from '../videos/placeholder.MP4';
 import featureVideo5 from '../videos/3dmodels.mov';
 import featureVideo6 from '../videos/lighting.MP4';
