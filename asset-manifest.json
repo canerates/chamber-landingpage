@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.85f9f8bb.css",
-    "main.js": "/static/js/main.c6907940.js",
+    "main.js": "/static/js/main.b9bdd469.js",
     "static/media/layout.mov": "/static/media/layout.fdeb15239130ef544f3d.mov",
     "static/media/lighting.MP4": "/static/media/lighting.d1a9cee16d39d7cec67e.MP4",
     "static/media/pbr.mov": "/static/media/pbr.e64a31ab5952572ade55.mov",
@@ -40,6 +40,7 @@
     "static/media/feature_icon6.png": "/static/media/feature_icon6.362671ebd4e7bca062bf.png",
     "static/media/swiftui_logo.png": "/static/media/swiftui_logo.17e1fd5d445c9805a6fc.png",
     "static/media/feature_icon2.png": "/static/media/feature_icon2.9680ce358488fc29511a.png",
+    "static/media/metal_logo.png": "/static/media/metal_logo.69016dcca4d099c0ae10.png",
     "static/media/combine_logo.png": "/static/media/combine_logo.dadcad5e5deab22b518a.png",
     "static/media/feature_icon1.png": "/static/media/feature_icon1.3349ddc54862aca8cee4.png",
     "static/media/feature_icon4.png": "/static/media/feature_icon4.ec3dd1cab50f8dc50356.png",
@@ -50,10 +51,10 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.85f9f8bb.css.map": "/static/css/main.85f9f8bb.css.map",
-    "main.c6907940.js.map": "/static/js/main.c6907940.js.map"
+    "main.b9bdd469.js.map": "/static/js/main.b9bdd469.js.map"
   },
   "entrypoints": [
     "static/css/main.85f9f8bb.css",
-    "static/js/main.c6907940.js"
+    "static/js/main.b9bdd469.js"
   ]
 }
