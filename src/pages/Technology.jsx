@@ -7,6 +7,7 @@ import swiftuiLogo from '../images/technology/swiftui_logo.png';
 import swiftLogo from '../images/technology/swift_logo.png';
 import firebaseLogo from '../images/technology/firebase_logo.png';
 import combineLogo from '../images/technology/combine_logo.png';
+import metalLogo from '../images/technology/metal_logo.png';
 
 const pageData = {
     title: 'Technology',
@@ -41,6 +42,12 @@ const pageData = {
             title: 'Combine',
             href: 'https://developer.apple.com/documentation/combine',
             details: 'The Combine framework provides a declarative Swift API for processing values over time.'
+        },
+        {
+            icon: metalLogo,
+            title: 'Metal SL',
+            href: 'https://developer.apple.com/metal/Metal-Shading-Language-Specification.pdf',
+            details: 'Metal shading language provides graphics and data-parallel compute code for shader programs that runs on the GPU.'
         },
         {
             icon: firebaseLogo,
