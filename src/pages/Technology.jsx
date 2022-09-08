@@ -1,13 +1,13 @@
 import { Container, Row } from 'reactstrap'
 import SectionTitle from '../common/SectionTitle';
 import TechnologyBox from '../components/TechnologyBox';
-import realitykitLogo from '../images/technology/realitykit_logo.png';
-import arkitLogo from '../images/technology/arkit_logo.png';
-import swiftuiLogo from '../images/technology/swiftui_logo.png';
-import swiftLogo from '../images/technology/swift_logo.png';
-import firebaseLogo from '../images/technology/firebase_logo.png';
-import combineLogo from '../images/technology/combine_logo.png';
-import metalLogo from '../images/technology/metal_logo.png';
+import realitykitLogo from '../assets/images/technology/realitykit_logo.png';
+import arkitLogo from '../assets/images/technology/arkit_logo.png';
+import swiftuiLogo from '../assets/images/technology/swiftui_logo.png';
+import swiftLogo from '../assets/images/technology/swift_logo.png';
+import firebaseLogo from '../assets/images/technology/firebase_logo.png';
+import combineLogo from '../assets/images/technology/combine_logo.png';
+import metalLogo from '../assets/images/technology/metal_logo.png';
 
 const pageData = {
     title: 'Technology',

@@ -3,18 +3,18 @@ import { Container, Row, Modal } from 'reactstrap';
 import ReactPlayer from 'react-player';
 import SectionTitle from '../common/SectionTitle';
 import FeatureBox from "../components/FeatureBox";
-import featureIcon1 from '../images/features/feature_icon1.png';
-import featureIcon2 from '../images/features/feature_icon2.png';
-import featureIcon3 from '../images/features/feature_icon3.png';
-import featureIcon4 from '../images/features/feature_icon4.png';
-import featureIcon5 from '../images/features/feature_icon5.png';
-import featureIcon6 from '../images/features/feature_icon6.png';
-import featureVideo1 from '../videos/placeholder.MP4';
-import featureVideo2 from '../videos/layout.mov';
-import featureVideo3 from '../videos/pbr.mov';
-import featureVideo4 from '../videos/placeholder.MP4';
-import featureVideo5 from '../videos/3dmodels.mov';
-import featureVideo6 from '../videos/lighting.MP4';
+import featureIcon1 from '../assets/images/features/feature_icon1.png';
+import featureIcon2 from '../assets/images/features/feature_icon2.png';
+import featureIcon3 from '../assets/images/features/feature_icon3.png';
+import featureIcon4 from '../assets/images/features/feature_icon4.png';
+import featureIcon5 from '../assets/images/features/feature_icon5.png';
+import featureIcon6 from '../assets/images/features/feature_icon6.png';
+import featureVideo1 from '../assets/videos/placeholder.MP4';
+import featureVideo2 from '../assets/videos/layout.mov';
+import featureVideo3 from '../assets/videos/pbr.mov';
+import featureVideo4 from '../assets/videos/placeholder.MP4';
+import featureVideo5 from '../assets/videos/3dmodels.mov';
+import featureVideo6 from '../assets/videos/lighting.MP4';
 
 
 const pageData = {

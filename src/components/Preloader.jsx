@@ -1,5 +1,5 @@
-import bgPortrait from '../images/common/background_portrait.jpg';
-import bgLandscape from '../images/common/background_landscape.jpg';
+import bgPortrait from '../assets/images/common/background_portrait.jpg';
+import bgLandscape from '../assets/images/common/background_landscape.jpg';
 
 const Preloader = () => {
     return(

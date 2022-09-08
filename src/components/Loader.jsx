@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import loaderImg from '../images/common/loader.png';
+import loaderImg from '../assets/images/common/loader.png';
 
 const Loader = (props) => {
     const [loading, setLoading] = useState(true);

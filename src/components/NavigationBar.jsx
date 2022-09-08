@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import logo from '../images/common/logo_web.png';
+import logo from '../assets/images/common/logo_web.png';
 
 import {
     Collapse,
