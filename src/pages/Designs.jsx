@@ -9,7 +9,7 @@ import layout4 from '../images/designs/layout4.png';
 import layout5 from '../images/designs/layout5.png';
 
 const pageData = {
-    title: 'Design Examples',
+    title: 'Designs',
     description: 'AR Room Layout Examples'
 }
 
