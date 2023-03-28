@@ -2,11 +2,11 @@ import { Container, Row, Col } from 'reactstrap'
 import Slider from 'react-slick';
 import SectionTitle from "../common/SectionTitle";
 import Contact from './Contact';
-import layout1 from '../assets/images/designs/layout1.png';
-import layout2 from '../assets/images/designs/layout2.png';
-import layout3 from '../assets/images/designs/layout3.png';
-import layout4 from '../assets/images/designs/layout4.png';
-import layout5 from '../assets/images/designs/layout5.png';
+import layout1 from '../assets/images/designs/layout1-min.png';
+import layout2 from '../assets/images/designs/layout2-min.png';
+import layout3 from '../assets/images/designs/layout3-min.png';
+import layout4 from '../assets/images/designs/layout4-min.png';
+import layout5 from '../assets/images/designs/layout5-min.png';
 
 const pageData = {
     title: 'Designs',

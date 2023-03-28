@@ -1,5 +1,5 @@
 import { Container, Row, Col, Button } from 'reactstrap';
-import iphoneHome from '../assets/images/screens/iphone_hometab.png';
+import iphoneHome from '../assets/images/screens/iphone_hometab-min.png';
 
 const Home = () => {
     return(

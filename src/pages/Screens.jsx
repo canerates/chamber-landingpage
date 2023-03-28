@@ -1,16 +1,16 @@
 import { Container, Row, Col } from 'reactstrap'
 import Slider from 'react-slick';
 import SectionTitle from '../common/SectionTitle';
-import iphoneHomeTab from '../assets/images/screens/iphone_hometab.png';
-import iphoneTextureTab from '../assets/images/screens/iphone_texturetab.png';
-import iphoneFurnitureTab from '../assets/images/screens/iphone_furnituretab.png';
+import iphoneHomeTab from '../assets/images/screens/iphone_hometab-min.png';
+import iphoneTextureTab from '../assets/images/screens/iphone_texturetab-min.png';
+import iphoneFurnitureTab from '../assets/images/screens/iphone_furnituretab-min.png';
 import iphoneDesignMeasure from '../assets/images/screens/iphone_design_measure.png';
 import iphoneDesignFurnitures from '../assets/images/screens/iphone_design_furnitures.png';
-import iphoneDesignTextures from '../assets/images/screens/iphone_design_textures.png';
+import iphoneDesignTextures from '../assets/images/screens/iphone_design_textures-min.png';
 import iphoneDesignSettings from '../assets/images/screens/iphone_design_settings.png';
-import iphoneDesignARQuicklook from '../assets/images/screens/iphone_arquicklook.png';
-import iphoneDesignMain1 from '../assets/images/screens/iphone_design_main1.png';
-import iphoneDesignMain2 from '../assets/images/screens/iphone_design_main2.png';
+import iphoneDesignARQuicklook from '../assets/images/screens/iphone_arquicklook-min.png';
+import iphoneDesignMain1 from '../assets/images/screens/iphone_design_main1-min.png';
+import iphoneDesignMain2 from '../assets/images/screens/iphone_design_main2-min.png';
 
 const pageData = {
     title: 'Screens',
