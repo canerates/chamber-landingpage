@@ -1,5 +1,6 @@
 import { Container, Row, Col, Button } from 'reactstrap';
 import iphoneHome from '../assets/images/screens/iphone_hometab-min.png';
+import youtubeIcon from '../assets/images/common/youtube_social_icon_white.png';
 
 const Home = () => {
     return(
@@ -19,9 +20,16 @@ const Home = () => {
                         <Row>
                             <p className='details'>Create your 3D room layout with textured floor and walls in real-time. Place your 3D furniture models and design your room. Give realistic looking with user-defined lighting options.  </p>
                         </Row>
-                        <div>
-                            <Button href='#screens' className='cv-btn'>See more</Button>
-                        </div>
+
+                        <Row >
+                            <Col>
+                                <Button href='#screens' className='cv-btn mr-20'>See More</Button>
+
+                                <a href='https://youtu.be/NcTS3BAcNts?si=VhpQXjYV_dZC6dj1' target='_blank' rel='noopener noreferrer' className='youtube-icon'>
+                                    <img src={youtubeIcon} alt="" style={{ width: '56px', height: '35px' }} />
+                                </a>
+                            </Col>
+                        </Row>
                     </Col>
                 </Row>
                 

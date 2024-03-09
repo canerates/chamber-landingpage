@@ -262,6 +262,10 @@ input{
     padding: 1em 0;
 }
 
+.mr-20 {
+    margin-right: 20px;
+}
+
 #home img {
     width: 300px;
 }
@@ -297,6 +301,12 @@ input{
 
 .cv-btn:hover{
 	background-color: #0099ff;
+    box-shadow: 5px 10px 30px rgba(2, 238, 255, 0.336);
+    transition: all ease 0.5s;
+    color: #e7eaec;
+}
+
+.youtube-icon:hover {
     box-shadow: 5px 10px 30px rgba(2, 238, 255, 0.336);
     transition: all ease 0.5s;
     color: #e7eaec;
