@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1e74756c.css",
-    "main.js": "/static/js/main.11c92710.js",
+    "main.css": "/static/css/main.085c7898.css",
+    "main.js": "/static/js/main.8d4eea04.js",
     "static/media/layout.mov": "/static/media/layout.fdeb15239130ef544f3d.mov",
     "static/media/lighting.MP4": "/static/media/lighting.d1a9cee16d39d7cec67e.MP4",
     "static/media/pbr.mov": "/static/media/pbr.e64a31ab5952572ade55.mov",
@@ -36,6 +36,7 @@
     "static/media/realitykit_logo.png": "/static/media/realitykit_logo.f559a535d6a65526df23.png",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/arkit_logo.png": "/static/media/arkit_logo.53c509abdd81962af58f.png",
+    "static/media/youtube_social_icon_white.png": "/static/media/youtube_social_icon_white.cfdd465a9651e73e7385.png",
     "static/media/loader.png": "/static/media/loader.f91f8d654369cc3985cd.png",
     "static/media/feature_icon6.png": "/static/media/feature_icon6.362671ebd4e7bca062bf.png",
     "static/media/swiftui_logo.png": "/static/media/swiftui_logo.17e1fd5d445c9805a6fc.png",
@@ -50,11 +51,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.1e74756c.css.map": "/static/css/main.1e74756c.css.map",
-    "main.11c92710.js.map": "/static/js/main.11c92710.js.map"
+    "main.085c7898.css.map": "/static/css/main.085c7898.css.map",
+    "main.8d4eea04.js.map": "/static/js/main.8d4eea04.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e74756c.css",
-    "static/js/main.11c92710.js"
+    "static/css/main.085c7898.css",
+    "static/js/main.8d4eea04.js"
   ]
 }
