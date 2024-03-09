@@ -1,12 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.085c7898.css",
-    "main.js": "/static/js/main.8d4eea04.js",
-    "static/media/layout.mov": "/static/media/layout.fdeb15239130ef544f3d.mov",
-    "static/media/lighting.MP4": "/static/media/lighting.d1a9cee16d39d7cec67e.MP4",
-    "static/media/pbr.mov": "/static/media/pbr.e64a31ab5952572ade55.mov",
-    "static/media/3dmodels.mov": "/static/media/3dmodels.2af1ecd31d16d03659e0.mov",
-    "static/media/placeholder.MP4": "/static/media/placeholder.3aa541babde9bcbbcced.MP4",
+    "main.js": "/static/js/main.6ae87d6e.js",
     "static/media/background_portrait-min.jpg": "/static/media/background_portrait-min.64bc015c1f6096037ec3.jpg",
     "static/media/background_landscape-min.jpg": "/static/media/background_landscape-min.846bc646985c68ebabbd.jpg",
     "static/media/iphone_design_main2-min.png": "/static/media/iphone_design_main2-min.d952a67e1a4f39adcf08.png",
@@ -52,10 +47,10 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.085c7898.css.map": "/static/css/main.085c7898.css.map",
-    "main.8d4eea04.js.map": "/static/js/main.8d4eea04.js.map"
+    "main.6ae87d6e.js.map": "/static/js/main.6ae87d6e.js.map"
   },
   "entrypoints": [
     "static/css/main.085c7898.css",
-    "static/js/main.8d4eea04.js"
+    "static/js/main.6ae87d6e.js"
   ]
 }
