@@ -11,8 +11,5 @@
 ### Feature List
 ![Screenshot](./page_features1.png)
 
-### Feature Video
-![Screenshot](./page_features2.png)
-
 ## Designs
 ![Screenshot](./page_designs.png)
