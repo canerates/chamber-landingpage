@@ -7,8 +7,6 @@
 ![Screenshot](./page_screens.png)
 
 ## Features
-
-### Feature List
 ![Screenshot](./page_features1.png)
 
 ## Designs
