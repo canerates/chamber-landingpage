@@ -158,15 +158,15 @@ const Home = ({ img }) => {
               md={6.5}
             >
               <StyledHomeTitle component="h1">
-                Design your rooom 
+                {mainData.homePageTitle}
               </StyledHomeTitle>
 
               <StyledHomeSubTitle component="h1">
-                Chamber AR
+                {mainData.homePageSubTitle}
               </StyledHomeSubTitle>
 
               <StyledHomeSubText component="h1">
-              Create your 3D room layout with textured floor and walls in real-time. Place your 3D furniture models and design your room. Give realistic looking with user-defined lighting options.
+                {mainData.homePageSubText}
               </StyledHomeSubText>
               <StyledHomeButton>
                 <MobileAppButton youtubeUrl={youtubeUrl}/>

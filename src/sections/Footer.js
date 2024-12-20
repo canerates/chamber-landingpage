@@ -1,5 +1,4 @@
 import { Typography, Box, Button, styled } from "@mui/material";
-import { Link as RouterLink } from "react-router-dom"
 import "animate.css";
 import { useInView } from "react-intersection-observer";
 import PageLogo from "../components/shared/PageLogo";
@@ -54,7 +53,7 @@ const StyledLinksContainer = styled(Box)(({ theme }) => ({
 }));
 
 
-const StyledFooterLink = styled(RouterLink)(({ theme }) => ({
+const StyledFooterLink = styled("a")(({ theme }) => ({
   textDecoration: "none",
   "& p": {
     color: theme.palette.text.primary + " !important",
@@ -107,8 +106,6 @@ const Footer = () => {
           <StyledLinksContainer>
             <StyledFooterLink
               href={mainData.contactLink}
-              smooth={true}
-              duration={1000}
             >
               <p>Contact</p>
             </StyledFooterLink>
@@ -120,7 +117,6 @@ const Footer = () => {
         <StyledFooterButton
           href={mainData.developerLink}
           target="_blank"
-          // rel="noopener noreferrer"
         >
           {mainData.copyright}
           </StyledFooterButton>

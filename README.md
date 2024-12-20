@@ -1,5 +1,5 @@
 <h2 align="center">
-  Chamber AR Interior Design
+  Chamber AR Interior Design Landing Page
 </h2>
 
 ![Screenshot](./page_home.png)
