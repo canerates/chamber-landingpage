@@ -1,46 +1,41 @@
-import React, { useState, useEffect } from 'react';
-import Preloader from './components/Preloader';
-import Loader from './components/Loader';
-import Main from './components/Main';
-import NavigationBar from './components/NavigationBar';
-import Home from './pages/Home';
-import Features from './pages/Features';
-import Screens from './pages/Screens';
-import Technology from './pages/Technology';
-import Designs from './pages/Designs';
+import { React, useState, useEffect } from "react"
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom"
+import { CssBaseline, ThemeProvider } from "@mui/material"
+import { ThemeContext } from "./utils/ThemeContext"
+import Main from "./pages/Main"
 
+import { lightTheme, darkTheme } from "./utils/Theme";
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 
 function App() {
-  const [loading, setLoading] = useState(true);
+  const [theme, setTheme] = useState(() => {
+    return window.localStorage.getItem("theme") || "light";
+  });
 
-  useEffect(() => {
-    Promise.all(
-      Array.from(document.images)
-          .filter(img => !img.complete)
-          .map(img => new Promise(
-              resolve => { img.onload = img.onerror = resolve; }
-          ))).then(() => {
-              setLoading(false);
-          });
+  const muiTheme = theme === "light" ? lightTheme : darkTheme;
 
-  },[]);
-
-  return(
-    <div className='App'>
-      <Preloader />
-      <Loader isLoading={loading} />
-      
-      <Main isLoading={loading}>
-        <NavigationBar />
-        <Home />
-        <Features/>
-        <Screens />
-        <Technology />
-        <Designs />
-      </Main>
-      
-    </div>
-  )
+  return (
+    <ThemeContext.Provider value={{ theme, setTheme }}>
+      <ThemeProvider theme={muiTheme}>
+        <CssBaseline>
+          <Router>
+            <ScrollToTop />
+            <Routes>
+              <Route exact path="/" element={<Main />} />
+            </Routes>
+          </Router>
+        </CssBaseline>
+      </ThemeProvider>
+    </ThemeContext.Provider>
+  );
 }
 
 export default App;

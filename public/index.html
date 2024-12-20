@@ -1,56 +1,27 @@
 <!DOCTYPE html>
-<html lang="en" style="overflow-x: hidden;">
+<html lang="en">
   <head>
-    <style>
-      .loader {
-          display: block;
-          position: absolute;
-          z-index: 1;
-          background-color: black;
-      }
-      #spinner {
-          -webkit-animation: sk-scaleout 1.5s infinite ease-in-out;
-          animation: sk-scaleout 1.5s infinite ease-in-out;
-          width: 100vw;
-          height: 100vh;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-      }
-      #spinner img {
-          width: 15%;
-      }
-      @keyframes sk-scaleout {
-          0% {
-            -webkit-transform: scale(0);
-            transform: scale(0);
-          }
-          100% {
-            -webkit-transform: scale(1.0);
-            opacity: 0;
-            transform: scale(1.0);
-          }
-      }
-    </style>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playwrite+GB+S&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
-      name="Chamber Interior Design"
+      name="description"
       content="Design your room with Chamber AR"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/icon_web.png" />
-    <title>Chamber Interior Design</title>
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Chamber AR Interior Design</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root">
-      <div className='loader'>
-        <div id='spinner' >
-            <img src='./loader.png' alt='loading...' />
-        </div>
-      </div>
-    </div>
+    <div id="root"></div>
   </body>
 </html>

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "0",
+    "title": "RealityKit",
+    "image": "../images/technology/realitykit_logo.png",
+    "description": "RealityKit framework provides high-performance 3D simulation and rendering. RealityKit leverages information provided by the ARKit framework to seamlessly integrate virtual objects into the real world. ",
+    "link": "https://developer.apple.com/documentation/realitykit"
+  },
+  {
+    "id": "1",
+    "title": "ARKit",
+    "image": "../images/technology/arkit_logo.png",
+    "description": "ARKit combines device motion tracking, camera scene capture, advanced scene processing, and display conveniences to simplify the task of building an AR experience. ",
+    "link": "https://developer.apple.com/augmented-reality/arkit/"
+  },
+  {
+    "id": "2",
+    "title": "Swift",
+    "image": "../images/technology/swift_logo.png",
+    "description": "Swift is a powerful and intuitive programming language for iOS, iPadOS, macOS, tvOS, and watchOS. Swift code is interactive and fun, the syntax is concise yet expressive. ",
+    "link": "https://developer.apple.com/swift/"
+  },
+  {
+    "id": "3",
+    "title": "SwiftUI",
+    "image": "../images/technology/swiftui_logo.png",
+    "description": "SwiftUI helps you build great-looking apps across all Apple platforms with the power of Swift.",
+    "link": "https://developer.apple.com/xcode/swiftui/"
+  },
+  {
+    "id": "4",
+    "title": "Combine",
+    "image": "../images/technology/combine_logo.png",
+    "description": "The Combine framework provides a declarative Swift API for processing values over time. ",
+    "link": "https://developer.apple.com/documentation/combine"
+  },
+  {
+    "id": "5",
+    "title": "Metal SL",
+    "image": "../images/technology/metal_logo.png",
+    "description": "Metal shading language provides graphics and data-parallel compute code for shader programs that runs on the GPU. ",
+    "link": "https://developer.apple.com/metal/Metal-Shading-Language-Specification.pdf"
+  }
+  ,
+  {
+    "id": "6",
+    "title": "Firebase",
+    "image": "../images/technology/firebase_logo.png",
+    "description": "Firebase is an app development platform that helps you build and grow apps and games users love. ",
+    "link": "https://firebase.google.com/"
+  }
+]

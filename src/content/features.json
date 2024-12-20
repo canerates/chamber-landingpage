@@ -1,0 +1,38 @@
+[
+  {
+    "id": "0",
+    "title": "Measure",
+    "image": "../images/features/features1.png",
+    "description": "Measure the floor, walls and any real-world length by creating AR shapes to show length information in centimeters.  "
+  },
+  {
+    "id": "1",
+    "title": "AR Layout",
+    "image": "../images/features/features2.png",
+    "description": "Generate 3D virtual room layout model in real-time by defining the corner positions of the real-world room. "
+  },
+  {
+    "id": "2",
+    "title": "PBR Texture",
+    "image": "../images/features/features3.png",
+    "description": "Use PBR textures to apply to generated virtual floor and walls plane to give realistic looking for the 3D room layout. "
+  },
+  {
+    "id": "3",
+    "title": "Scan Texture",
+    "image": "../images/features/features4.png",
+    "description": "Scan and modify the real-world textures to generate custom textures for the virtual floor and walls planes in AR room. "
+  },
+  {
+    "id": "4",
+    "title": "3D Models",
+    "image": "../images/features/features5.png",
+    "description": "Place and manipulate the pre-defined 3d USDZ furniture models to augmented room layout to design in real-time. "
+  },
+  {
+    "id": "5",
+    "title": "Lighting",
+    "image": "../images/features/features6.png",
+    "description": "Use lighting options such as directional, point, spot lighting types to give realistic looking to the 3D AR room layout. "
+  }
+]
