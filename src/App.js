@@ -17,7 +17,7 @@ function ScrollToTop() {
 
 function App() {
   const [theme, setTheme] = useState(() => {
-    return window.localStorage.getItem("theme") || "light";
+    return window.localStorage.getItem("theme") || "dark";
   });
 
   const muiTheme = theme === "light" ? lightTheme : darkTheme;

@@ -1,13 +1,7 @@
-# Chamber AR Application Showcase Single Page
+<h2 align="center">
+  Chamber AR Interior Design
+  <br />
+  <a href="https://chamberapp.canerates.com/">chamberapp.canerates.com</a>
+</h2>
 
-## Home
 ![Screenshot](./page_home.png)
-
-## Screens
-![Screenshot](./page_screens.png)
-
-## Features
-![Screenshot](./page_features1.png)
-
-## Designs
-![Screenshot](./page_designs.png)
