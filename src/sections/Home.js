@@ -112,7 +112,7 @@ const StyledHomeSubText = styled(Typography)(({ theme }) => ({
   },
   [theme.breakpoints.down("sm")]: {
     textAlign: "center",
-    width: "70%",
+    width: "90%",
   },
 }));
 
